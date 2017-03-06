@@ -1,0 +1,4 @@
+group: "atomisthqa"
+artifact: "cd-rug-04"
+version: "0.1.0"
+requires: "[0.12.0,1.0.0)"
