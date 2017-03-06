@@ -1,0 +1,12 @@
+scenario MyFirstGenerator should create a new project based on this archive
+
+let project_name = "my-project-name"
+
+given
+  Empty
+
+when
+  MyFirstGenerator
+
+then
+  fileExists "README.md"
