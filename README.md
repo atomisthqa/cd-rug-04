@@ -6,6 +6,34 @@
 This [Rug][rug] project contains This is my first editor
 
 ## Rugs
+### MyFirstEditor
+
+My very first editor
+
+#### Prerequisites
+
+Put your editor prerequisites here.
+
+#### Parameters
+
+This Rug takes following parameters.
+
+Name | Required | Default | Description
+-----|----------|---------|------------
+`input_parameter` | Yes | | Example input parameter
+
+#### Running
+
+Run this Rug as follows:
+
+```
+$ cd project/directory
+$ rug edit atomist-rugs:rug-editors:MyFirstEditor \
+    input_parameter='some value'
+```
+
+Explain what your editor does here.
+
 
 ## Support
 
