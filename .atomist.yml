@@ -16,3 +16,16 @@ generator:
     - "description": "This is my first editor"
     - "version": "0.1.0"
 
+---
+kind: "operation"
+client: "atomist"
+editor:
+  name: "AddTypeScript"
+  group: "atomist-rugs"
+  artifact: "rug-editors"
+  version: "0.13.0"
+  origin:
+    repo: "https://github.com/atomist-rugs/rug-editors.git"
+    branch: "8f7b8da48226325ba1e7f83520bc7436f9f0f792"
+    sha: "8f7b8da"
+
