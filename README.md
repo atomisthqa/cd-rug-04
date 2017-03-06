@@ -34,6 +34,34 @@ $ rug edit atomist-rugs:rug-editors:MyFirstEditor \
 
 Explain what your editor does here.
 
+### MyFirstGenerator
+
+My first generator
+
+#### Prerequisites
+
+This Rug has no prerequisites.
+
+#### Parameters
+
+This Rug takes following parameters.
+
+Name | Required | Default | Description
+-----|----------|---------|------------
+`project_name` | Yes | | Name of project to be created
+
+#### Running
+
+Run this Rug as follows:
+
+```
+$ cd parent/directory
+$ rug generate atomist-rugs:rug-editors:MyFirstGenerator \
+    my-new-project
+```
+
+Explain what your generator does here.
+
 
 ## Support
 

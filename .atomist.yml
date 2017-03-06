@@ -45,3 +45,19 @@ editor:
     - "editor_name": "MyFirstEditor"
     - "description": "My very first editor"
 
+---
+kind: "operation"
+client: "atomist"
+editor:
+  name: "AddTypeScriptGenerator"
+  group: "atomist-rugs"
+  artifact: "rug-editors"
+  version: "0.13.0"
+  origin:
+    repo: "https://github.com/atomist-rugs/rug-editors.git"
+    branch: "8f7b8da48226325ba1e7f83520bc7436f9f0f792"
+    sha: "8f7b8da"
+  parameters:
+    - "generator_name": "MyFirstGenerator"
+    - "description": "My first generator"
+
